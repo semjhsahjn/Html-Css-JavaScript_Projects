@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="pictures/java.png">
+</head>
+<body>
+    <div class="image-container">
+        <span style="--i: 0">
+            <img src="pictures/javascript.png" >
+        </span>
+        <span style="--i: 1">
+            <img src="pictures/c++.png" >
+        </span>
+        <span style="--i: 2">
+            <img src="pictures/css.webp" >
+        </span>
+        <span style="--i: 3">
+            <img src="pictures/pyhton.png" >
+        </span>
+        <span style="--i: 4">
+            <img src="pictures/java.png">
+        </span>
+        <span style="--i: 5">
+            <img src="pictures/selenium.png">
+        </span>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn" id="next">Next</button>
+        <button class="btn" id="prev">Prev</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
